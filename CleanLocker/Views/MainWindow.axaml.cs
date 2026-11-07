@@ -2,10 +2,11 @@ using System;
 using Avalonia.Controls;
 using CleanLocker.Core;
 using CleanLocker.ViewModels;
+using FluentAvalonia.UI.Windowing;
 
 namespace CleanLocker.Views;
 
-public partial class MainWindow : Window
+public partial class MainWindow : FAAppWindow
 {
     public MainWindow()
     {
